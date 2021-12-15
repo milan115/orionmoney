@@ -1,0 +1,37 @@
+.content .main{padding-top: 140px!important;}
+.block-text, .content .main .text h1,.content .main .text p{
+    text-align: justify;
+}
+.header .logo{
+    background: url('/nuxt/img/logo.4d939a3.svg') no-repeat!important;
+}
+body{background: #272a43 url('/nuxt/img/bg-1.97c16ec.png') no-repeat 50% 50%!important;
+    font-family: "gilroy",Arial,Helvetica!important;
+    font-weight: 400!important;
+    
+    background-attachment: fixed!important;
+    background-size: cover!important;
+    min-height: 100%!important;}
+
+
+@media screen and (max-width: 900px)
+{
+.content .main .text h1 {
+   
+    text-align: initial;} 
+    .content .main{padding-top: 100px!important;}
+    .orion-token-section svg {
+        display: none;
+    }
+
+}
+
+    @media screen and (max-width: 1024px)
+{
+.content .main .text h1 {
+   
+    text-align: initial;} 
+    .orion-token-section svg {
+        display: none;
+    }
+}
